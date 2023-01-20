@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyFirebase</string>
+    <string name="web_client_id">5940400905-bb0t2mf2hnkbpg5vq2cf9lvjt3hcln8u.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>

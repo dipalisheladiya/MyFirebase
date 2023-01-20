@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/round_bg_list"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFirstname"
+            android:text="Firstname"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMidname"
+            android:text="Midname"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLastname"
+            android:text="Lastname"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmailId"
+            android:text="Email"
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNumber"
+            android:text="Number"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFees"
+            android:text="Fees"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/edit" />
+
+            <ImageView
+                android:id="@+id/imgDelete"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/delete"
+                android:layout_marginStart="@dimen/_20sdp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
